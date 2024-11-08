@@ -1,3 +1,4 @@
+package Lesson7;
 public class Student4 {
     String name;
     static int counter = 0;

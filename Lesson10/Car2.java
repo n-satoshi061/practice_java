@@ -1,3 +1,4 @@
+package Lesson10;
 public class Car2 {
     int no;
     int speed;

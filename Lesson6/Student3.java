@@ -1,3 +1,4 @@
+package Lesson6;
 public class Student3 {
     String name;
     int engScore;

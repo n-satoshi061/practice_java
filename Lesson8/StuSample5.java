@@ -1,3 +1,4 @@
+package Lesson8;
 public class StuSample5 {
     public static void main(String[] args) {
         Student5 stu1 = new Student5("西川");

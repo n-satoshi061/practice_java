@@ -1,3 +1,4 @@
+package Lesson3;
 public class Cast {
     public static void main(String[] args) {
         int price = Integer.parseInt(args[0]);

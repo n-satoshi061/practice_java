@@ -1,3 +1,4 @@
+package Lesson7;
 public class StuSample4 {
     public static void main(String[] args) {
         Student4.display();
