@@ -1,0 +1,294 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 14:38:12.554 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/9.0.97
+16-Nov-2024 14:38:12.556 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Nov 6 2024 19:55:19 UTC
+16-Nov-2024 14:38:12.556 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 9.0.97.0
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Mac OS X
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            13.5
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           aarch64
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           23.0.1+11-39
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            /Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:12.557 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            /Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/conf/logging.properties
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:12.597 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/temp
+16-Nov-2024 14:38:12.603 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/Users/nishikawatomoo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.] に存在しません。
+16-Nov-2024 14:38:12.762 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+16-Nov-2024 14:38:12.795 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [342] ミリ秒
+16-Nov-2024 14:38:12.811 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+16-Nov-2024 14:38:12.811 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/9.0.97]
+16-Nov-2024 14:38:12.814 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/docs] を配備します
+16-Nov-2024 14:38:12.938 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/docs] の Web アプリケーションの配備は [122] ミリ秒で完了しました。
+16-Nov-2024 14:38:12.938 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/manager] を配備します
+16-Nov-2024 14:38:12.953 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/manager] の Web アプリケーションの配備は [15] ミリ秒で完了しました。
+16-Nov-2024 14:38:12.953 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/examples] を配備します
+16-Nov-2024 14:38:13.047 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/examples] の Web アプリケーションの配備は [93] ミリ秒で完了しました。
+16-Nov-2024 14:38:13.047 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/ROOT] を配備します
+16-Nov-2024 14:38:13.053 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/ROOT] の Web アプリケーションの配備は [6] ミリ秒で完了しました。
+16-Nov-2024 14:38:13.053 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/host-manager] を配備します
+16-Nov-2024 14:38:13.061 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/host-manager] の Web アプリケーションの配備は [8] ミリ秒で完了しました。
+16-Nov-2024 14:38:13.062 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+16-Nov-2024 14:38:13.067 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [271] ミリ秒
+16-Nov-2024 14:38:52.343 情報 [main] org.apache.catalina.core.StandardServer.await 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。
+16-Nov-2024 14:38:52.343 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+16-Nov-2024 14:38:52.345 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+16-Nov-2024 14:38:52.354 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+16-Nov-2024 14:38:52.357 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 14:38:59.415 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/9.0.97
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Nov 6 2024 19:55:19 UTC
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 9.0.97.0
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Mac OS X
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            13.5
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           aarch64
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           23.0.1+11-39
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            /Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:59.417 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            /Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:59.420 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 14:38:59.420 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 14:38:59.420 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/conf/logging.properties
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97
+16-Nov-2024 14:38:59.421 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/temp
+16-Nov-2024 14:38:59.425 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/Users/nishikawatomoo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.] に存在しません。
+16-Nov-2024 14:38:59.562 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+16-Nov-2024 14:38:59.573 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [238] ミリ秒
+16-Nov-2024 14:38:59.587 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+16-Nov-2024 14:38:59.587 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/9.0.97]
+16-Nov-2024 14:38:59.590 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/docs] を配備します
+16-Nov-2024 14:38:59.698 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/docs] の Web アプリケーションの配備は [107] ミリ秒で完了しました。
+16-Nov-2024 14:38:59.698 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/manager] を配備します
+16-Nov-2024 14:38:59.712 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/manager] の Web アプリケーションの配備は [14] ミリ秒で完了しました。
+16-Nov-2024 14:38:59.712 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/examples] を配備します
+16-Nov-2024 14:38:59.799 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/examples] の Web アプリケーションの配備は [87] ミリ秒で完了しました。
+16-Nov-2024 14:38:59.799 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/ROOT] を配備します
+16-Nov-2024 14:38:59.805 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/ROOT] の Web アプリケーションの配備は [6] ミリ秒で完了しました。
+16-Nov-2024 14:38:59.805 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/host-manager] を配備します
+16-Nov-2024 14:38:59.812 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/host-manager] の Web アプリケーションの配備は [7] ミリ秒で完了しました。
+16-Nov-2024 14:38:59.814 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+16-Nov-2024 14:38:59.818 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [244] ミリ秒
+16-Nov-2024 14:45:30.163 情報 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/名称未設定フォルダ] を配備します
+16-Nov-2024 14:45:30.198 情報 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/名称未設定フォルダ] の Web アプリケーションの配備は [34] ミリ秒で完了しました。
+16-Nov-2024 14:45:40.709 情報 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy コンテキストパス [/名称未設定フォルダ] のWebアプリケーションの配備を解除します
+16-Nov-2024 14:45:40.736 情報 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web アプリケーションディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/javaweb] を配備します
+16-Nov-2024 14:45:40.757 情報 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/javaweb] の Web アプリケーションの配備は [21] ミリ秒で完了しました。
+16-Nov-2024 17:24:09.448 情報 [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess 更新されたソース [file:/Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/conf/tomcat-users.xml] からメモリユーザーデータベース [UserDatabase] を再ロードしています
+16-Nov-2024 17:24:09.449 重大 [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open ユーザー情報データベースとして指定された [conf/tomcat-users.xml] は存在しません。
+16-Nov-2024 17:24:09.956 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy コンテキストパス [] のWebアプリケーションの配備を解除します
+16-Nov-2024 17:24:09.963 警告 [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web アプリケーション [ROOT] は JDBC ドライバーの登録を解除できません。
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1613)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1557)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1494)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:410)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4723)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:659)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1438)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1367)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+16-Nov-2024 17:24:10.476 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy コンテキストパス [/examples] のWebアプリケーションの配備を解除します
+16-Nov-2024 17:24:10.485 警告 [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web アプリケーション [examples] は JDBC ドライバーの登録を解除できません。
+	java.lang.IllegalStateException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1092)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1612)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1557)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1494)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:410)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4723)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:659)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1438)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1367)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:279)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:300)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 30 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 34 more
+	Caused by: java.nio.file.NoSuchFileException: /Users/nishikawatomoo/Downloads/apache-tomcat-9.0.97/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:56)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:172)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1865)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1512)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:744)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:254)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+		... 37 more
+16-Nov-2024 17:24:10.998 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy コンテキストパス [/host-manager] のWebアプリケーションの配備を解除します
+16-Nov-2024 17:24:11.002 警告 [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web アプリケーション [host-manager] は JDBC ドライバーの登録を解除できません。
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1613)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1557)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1494)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:410)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4723)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:659)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1438)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1367)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+16-Nov-2024 17:24:11.514 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy コンテキストパス [/javaweb] のWebアプリケーションの配備を解除します
+16-Nov-2024 17:24:11.518 警告 [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web アプリケーション [javaweb] は JDBC ドライバーの登録を解除できません。
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1613)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1557)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1494)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:410)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4723)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:659)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1438)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1367)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+16-Nov-2024 17:24:12.025 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy コンテキストパス [/manager] のWebアプリケーションの配備を解除します
+16-Nov-2024 17:24:12.029 警告 [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web アプリケーション [manager] は JDBC ドライバーの登録を解除できません。
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1613)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1557)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1494)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:410)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4723)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:659)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1438)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1367)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+16-Nov-2024 17:24:12.542 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy コンテキストパス [/docs] のWebアプリケーションの配備を解除します
+16-Nov-2024 17:24:12.546 警告 [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web アプリケーション [docs] は JDBC ドライバーの登録を解除できません。
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1613)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1557)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1494)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:410)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4723)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:659)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1438)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1367)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
