@@ -1,4 +1,4 @@
-package bean;
+package tomcat.webapps.javaweb.bean;
 import java.io.Serializable;
 
 public class RegisterBean implements Serializable {
