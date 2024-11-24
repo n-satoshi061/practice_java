@@ -5,7 +5,7 @@ public class InsertStudent {
     public static void main(String[] args) {
         final String URL = "jdbc:mysql://localhost:3306/sampledb?useSSL=false&serverTimezone=UTC";
         final String USER = "root";
-        final String PASS = "199561SAto#";
+        final String PASS = "xxx";
         String sql = "INSERT INTO student VALUES(6, '西川', 95)";
 
         Connection con = null;
